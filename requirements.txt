@@ -1,0 +1,32 @@
+# Requirements for Legacy Banking Application
+# This represents a typical legacy system with minimal dependencies
+
+# Core Python packages (most functionality is built-in)
+# No modern frameworks or libraries - typical of legacy systems
+
+# For testing (minimal testing setup)
+pytest>=7.0.0
+pytest-mock>=3.6.0
+
+# For development and code analysis (add these when refactoring)
+# black>=22.0.0        # Code formatting
+# flake8>=4.0.0        # Linting
+# mypy>=0.950          # Type checking
+# coverage>=6.0        # Test coverage
+
+# Database (using SQLite - no external dependencies)
+# sqlite3 is included with Python
+
+# Email functionality (using built-in smtplib)
+# smtplib is included with Python
+
+# Note: This minimal requirements file is typical of legacy systems
+# that were built using mostly standard library functions.
+# During refactoring, you would typically add:
+# - Modern web frameworks (Flask, Django, FastAPI)
+# - ORM libraries (SQLAlchemy, Django ORM)
+# - Validation libraries (Pydantic, Marshmallow)
+# - Dependency injection frameworks
+# - Logging libraries (structlog)
+# - Configuration management (python-decouple)
+# - Testing libraries (factory-boy, faker)
